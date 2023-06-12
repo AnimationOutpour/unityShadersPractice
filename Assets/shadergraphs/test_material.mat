@@ -43,7 +43,7 @@ Material:
     - _BUILTIN_QueueOffset: 0
     - _Grass_height: 0
     - _Level_Height: -0.1
-    - _Rock_Height: 0.086
+    - _Rock_Height: 0.073
     - _Snow_Height: 0.2
     - _Water_Level: 0
     m_Colors:
