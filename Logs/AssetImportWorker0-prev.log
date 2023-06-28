@@ -15,7 +15,7 @@ D:/00_SMG_Repo/unityShadersPractice
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52630
+51379
 Successfully changed project path to: D:/00_SMG_Repo/unityShadersPractice
 D:/00_SMG_Repo/unityShadersPractice
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/00_SMG_Repo/unityShadersPractice
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [37400] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 2015155852 [EditorId] 2015155852 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HET0B5J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15664] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 2223030280 [EditorId] 2223030280 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HET0B5J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [37400] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 2015155852 [EditorId] 2015155852 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HET0B5J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15664] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 2223030280 [EditorId] 2223030280 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HET0B5J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 60.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 52.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -67,53 +67,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.004075 seconds.
+Registered in 0.003365 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 52.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 61.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.397 seconds
+- Completed reload, in  0.403 seconds
 Domain Reload Profiling:
-	ReloadAssembly (397ms)
-		BeginReloadAssembly (44ms)
+	ReloadAssembly (403ms)
+		BeginReloadAssembly (45ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (287ms)
-			LoadAssemblies (42ms)
+		EndReloadAssembly (294ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (63ms)
+			SetupTypeCache (61ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (14ms)
-			SetupLoadedEditorAssemblies (177ms)
+			RebuildScriptCaches (15ms)
+			SetupLoadedEditorAssemblies (187ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (21ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
+				RefreshPlugins (62ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (78ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005132 seconds.
+Registered in 0.002567 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\00_SMG_Repo\unityShadersPractice\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\00_SMG_Repo\unityShadersPractice\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -121,46 +121,46 @@ Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 54.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 62.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.782 seconds
+- Completed reload, in  0.846 seconds
 Domain Reload Profiling:
-	ReloadAssembly (783ms)
-		BeginReloadAssembly (67ms)
+	ReloadAssembly (847ms)
+		BeginReloadAssembly (62ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (12ms)
-		EndReloadAssembly (640ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (11ms)
+		EndReloadAssembly (717ms)
+			LoadAssemblies (50ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (165ms)
+			SetupTypeCache (221ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (326ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (366ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (55ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (154ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4347 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (399.8 KB). Loaded Objects now: 4827.
-Memory consumption went from 178.8 MB to 178.4 MB.
-Total: 2.280300 ms (FindLiveObjects: 0.227000 ms CreateObjectMapping: 0.100900 ms MarkObjects: 1.836600 ms  DeleteObjects: 0.115300 ms)
+Unloading 4365 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (399.9 KB). Loaded Objects now: 4845.
+Memory consumption went from 181.2 MB to 180.8 MB.
+Total: 2.997000 ms (FindLiveObjects: 0.213700 ms CreateObjectMapping: 0.113100 ms MarkObjects: 2.505300 ms  DeleteObjects: 0.164100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -174,13 +174,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5898.046492 seconds.
-  path: Assets/shadergraphs/zombunny_ripple.mat
-  artifactKey: Guid(0ad2d845614e5494587125e0b53d1428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shadergraphs/zombunny_ripple.mat using Guid(0ad2d845614e5494587125e0b53d1428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5360b5fa4246364f4d1e0546ec5c258a') in 0.077400 seconds 
+  Time since last request: 582.434684 seconds.
+  path: Assets/shadergraphs/water_intersection/water_intersection.shadergraph
+  artifactKey: Guid(fa891221df8291e4d8c8c242e99593b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shadergraphs/water_intersection/water_intersection.shadergraph using Guid(fa891221df8291e4d8c8c242e99593b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f23a37e6ccd6eb84791ab3335a2b63') in 0.067960 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
+  Time since last request: 4401.279425 seconds.
   path: Assets/shadergraphs/fx/fire_sub.shadersubgraph
   artifactKey: Guid(ee999654adbbcdc41bc3072bdbd6aac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/shadergraphs/fx/fire_sub.shadersubgraph using Guid(ee999654adbbcdc41bc3072bdbd6aac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990a45248df5fab1e6ace5a8f91146cc') in 0.003052 seconds 
+Start importing Assets/shadergraphs/fx/fire_sub.shadersubgraph using Guid(ee999654adbbcdc41bc3072bdbd6aac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51327d3c55254f700457e3b411f9af24') in 0.012807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.205213 seconds.
+  path: Assets/shadergraphs/fire.mat
+  artifactKey: Guid(8471ad8913182e54d97717ad59090018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shadergraphs/fire.mat using Guid(8471ad8913182e54d97717ad59090018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756af8bbe8f667d7ebbb08cff06795ed') in 0.069185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.398090 seconds.
+  path: Assets/shadergraphs/fx/fire.shadergraph
+  artifactKey: Guid(3e63981856200bb47ac3e67ca443da64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shadergraphs/fx/fire.shadergraph using Guid(3e63981856200bb47ac3e67ca443da64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfee7380ebf37e409b9d7ea6291edb1') in 0.001528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.298187 seconds.
+  path: Assets/shadergraphs/fx/complex_fire.shadergraph
+  artifactKey: Guid(3f9870db785ec1c4dbd86183030cbbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shadergraphs/fx/complex_fire.shadergraph using Guid(3f9870db785ec1c4dbd86183030cbbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea07a2f1b60e3272fe51f9b9f4d658d9') in 0.172876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.481114 seconds.
+  path: Assets/shadergraphs/fx/fire.shadergraph
+  artifactKey: Guid(3e63981856200bb47ac3e67ca443da64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shadergraphs/fx/fire.shadergraph using Guid(3e63981856200bb47ac3e67ca443da64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00972950a8b6ddcd61115f4521258b5') in 0.001386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.536101 seconds.
+  path: Assets/shadergraphs/fire.mat
+  artifactKey: Guid(8471ad8913182e54d97717ad59090018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shadergraphs/fire.mat using Guid(8471ad8913182e54d97717ad59090018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd0504ed324a11cda290772fec02a94') in 0.008962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.993330 seconds.
+  path: Assets/shadergraphs/water_intersection/water_intersection.shadergraph
+  artifactKey: Guid(fa891221df8291e4d8c8c242e99593b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/shadergraphs/water_intersection/water_intersection.shadergraph using Guid(fa891221df8291e4d8c8c242e99593b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e77dae589dc111bb4657be0dbb9a36') in 0.001293 seconds 
