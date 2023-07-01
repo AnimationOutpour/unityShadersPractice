@@ -363,7 +363,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/DebugVertices.cs"
-"Assets/shadergraphs/scripts_shaders/Wobble.cs"
+"Assets/FreeFlyCamera/Demo/Scripts/ToggleGameObjectEnable.cs"
+"Assets/FreeFlyCamera/Scripts/FreeFlyCamera.cs"
+"Assets/shadergraphs/00_scripts_shaders/Wobble.cs"
 -langversion:9.0
 
 /deterministic

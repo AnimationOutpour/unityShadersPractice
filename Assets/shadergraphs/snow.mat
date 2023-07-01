@@ -90,7 +90,7 @@ Material:
     - _ZWrite: 1
     - _healthValue: 100
     - _ripple_amount: 0.946
-    - _snowColorMultiplier: 1
+    - _snowColorMultiplier: 1.99
     - _snowHeight: 0.05
     - _snowSoftEdge: 0.5
     - _snow_noise_scale: 17.38

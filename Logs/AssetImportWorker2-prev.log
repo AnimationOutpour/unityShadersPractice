@@ -15,7 +15,7 @@ D:/00_SMG_Repo/unityShadersPractice
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-50541
+51210
 Successfully changed project path to: D:/00_SMG_Repo/unityShadersPractice
 D:/00_SMG_Repo/unityShadersPractice
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/00_SMG_Repo/unityShadersPractice
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20428] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 882098922 [EditorId] 882098922 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HET0B5J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [44784] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 448474207 [EditorId] 448474207 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HET0B5J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20428] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 882098922 [EditorId] 882098922 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HET0B5J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [44784] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 448474207 [EditorId] 448474207 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HET0B5J) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 59.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 59.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -67,53 +67,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.006743 seconds.
+Registered in 0.003676 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 53.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 60.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.411 seconds
+- Completed reload, in  0.416 seconds
 Domain Reload Profiling:
-	ReloadAssembly (411ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (416ms)
+		BeginReloadAssembly (45ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (290ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (305ms)
+			LoadAssemblies (44ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (60ms)
+			SetupTypeCache (63ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (177ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (187ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (54ms)
+				RefreshPlugins (60ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (77ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002276 seconds.
+Registered in 0.002801 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\00_SMG_Repo\unityShadersPractice\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\00_SMG_Repo\unityShadersPractice\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -121,31 +121,31 @@ Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 57.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 61.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.830 seconds
+- Completed reload, in  0.755 seconds
 Domain Reload Profiling:
-	ReloadAssembly (830ms)
-		BeginReloadAssembly (67ms)
+	ReloadAssembly (755ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (678ms)
-			LoadAssemblies (112ms)
+			CreateAndSetChildDomain (11ms)
+		EndReloadAssembly (624ms)
+			LoadAssemblies (51ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (175ms)
+			SetupTypeCache (166ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (336ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (346ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (162ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (161ms)
 				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
@@ -154,13 +154,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
 Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4385 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (0.9 MB). Loaded Objects now: 4864.
-Memory consumption went from 186.6 MB to 185.7 MB.
-Total: 2.642500 ms (FindLiveObjects: 0.236700 ms CreateObjectMapping: 0.101100 ms MarkObjects: 2.056300 ms  DeleteObjects: 0.247500 ms)
+Unloading 4765 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.9 MB). Loaded Objects now: 5246.
+Memory consumption went from 204.4 MB to 203.5 MB.
+Total: 2.437800 ms (FindLiveObjects: 0.220500 ms CreateObjectMapping: 0.099500 ms MarkObjects: 1.896700 ms  DeleteObjects: 0.220500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -174,142 +174,40 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 52403.237738 seconds.
-  path: Assets/Sewer
-  artifactKey: Guid(a1d103cafbff04e20a3c00560224d121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer using Guid(a1d103cafbff04e20a3c00560224d121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70971d19e634bd5c85cbaa756152eb59') in 0.005710 seconds 
+  Time since last request: 16859.130272 seconds.
+  path: Assets/Textures/Noise
+  artifactKey: Guid(9c9bd280905ccbd43b38d8d579269ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Noise using Guid(9c9bd280905ccbd43b38d8d579269ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1fb2dc375fc7929e89622d979f96fff') in 0.008997 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.302899 seconds.
-  path: Assets/Sewer/_Prefabs
-  artifactKey: Guid(0782bb0c751e24ddf903c438c9528b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer/_Prefabs using Guid(0782bb0c751e24ddf903c438c9528b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882fe86c2b8f5cd84125d49cddd07d5d') in 0.001452 seconds 
+  Time since last request: 16.838594 seconds.
+  path: Assets/Textures/Noise/Portal_08.png
+  artifactKey: Guid(092922b28d89a8f41a0cc7ed69b1c4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Noise/Portal_08.png using Guid(092922b28d89a8f41a0cc7ed69b1c4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b928460054ddcf7dc30a8c70f44aecf') in 0.297868 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.009185 seconds.
-  path: Assets/Sewer/_Prefabs/sewerLights.prefab
-  artifactKey: Guid(9ca12e29c0d1b4338a55a492174efc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer/_Prefabs/sewerLights.prefab using Guid(9ca12e29c0d1b4338a55a492174efc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bde3ab6935d8fea57a3f058d1b39065') in 0.063453 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/Textures/Noise/T_Noise_06.png
+  artifactKey: Guid(d66778b00e100d04391f70aa08e6ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Noise/T_Noise_06.png using Guid(d66778b00e100d04391f70aa08e6ad87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908c4cdbadd8f09f7b6a7d490d190c4e') in 0.060866 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.586195 seconds.
-  path: Assets/Sewer/_Textures
-  artifactKey: Guid(56e158fb847dd40fca18ad072291ee2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer/_Textures using Guid(56e158fb847dd40fca18ad072291ee2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98861e84e7b448639fa4265d9522a371') in 0.001424 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.053406 seconds.
-  path: Assets/Sewer/_Textures/bridge.psd
-  artifactKey: Guid(176ef1bc415c743f5913b692df0a7bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer/_Textures/bridge.psd using Guid(176ef1bc415c743f5913b692df0a7bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fe1677c4d86845d334b9ec75835802') in 0.014420 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000796 seconds.
-  path: Assets/Sewer/_Textures/bulb.psd
-  artifactKey: Guid(922fd80e4c85c4ef08a02bc7e1d09bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer/_Textures/bulb.psd using Guid(922fd80e4c85c4ef08a02bc7e1d09bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8096fc3359bcc94a52c023c85e403afb') in 0.007518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sewer/_Textures/wallPanelsBump.tga
-  artifactKey: Guid(18ee5c77bc98849b5a94afe194e98971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer/_Textures/wallPanelsBump.tga using Guid(18ee5c77bc98849b5a94afe194e98971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be8bdd8853fd7206a7c8c563aa800e1') in 0.012361 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sewer/_Textures/vat.psd
-  artifactKey: Guid(3ac4b445f9ae04940a600761dbb47cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer/_Textures/vat.psd using Guid(3ac4b445f9ae04940a600761dbb47cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ccbf22519e7cab1d8d9a1649a01270') in 0.006175 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/Textures/Noise/T_Noise_02.png
+  artifactKey: Guid(d4b2c94a64bdc5140b7226e39f7cc831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Noise/T_Noise_02.png using Guid(d4b2c94a64bdc5140b7226e39f7cc831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bae44a88409c83c3a60b9b28d6fd04b') in 0.038970 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Sewer/_Textures/controlPanelScreen.psd
-  artifactKey: Guid(0173ae60b9bce4770bc854e2b7cafec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer/_Textures/controlPanelScreen.psd using Guid(0173ae60b9bce4770bc854e2b7cafec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16a986aae8f59d51897e2063e2cfd36') in 0.006918 seconds 
+  path: Assets/Textures/Noise/T_Noise_05.png
+  artifactKey: Guid(f85849cd136c70743bbfb3bfdbbf7c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Noise/T_Noise_05.png using Guid(f85849cd136c70743bbfb3bfdbbf7c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e131fd3dc10995a126b596ddc42b5c4f') in 0.044858 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Sewer/_Textures/pipeTGA.tga
-  artifactKey: Guid(5bbfe21213f474ad4a48978b9eae9679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer/_Textures/pipeTGA.tga using Guid(5bbfe21213f474ad4a48978b9eae9679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b4aec23950a319a65819b36d7a1516') in 0.007482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Sewer/_Textures/pipeBump.psd
-  artifactKey: Guid(c3f0be2cab81448b0bece4f6b1411b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer/_Textures/pipeBump.psd using Guid(c3f0be2cab81448b0bece4f6b1411b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b44051e136e3a8184d690f292624ad') in 0.005276 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Sewer/_Textures/vatTopTGA.tga
-  artifactKey: Guid(071be9aba07cf476ca0412a9cc0d4988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer/_Textures/vatTopTGA.tga using Guid(071be9aba07cf476ca0412a9cc0d4988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d017048cbfb7bfde64bc100b1715a6') in 0.005870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sewer/_Textures/foamSplash.tga
-  artifactKey: Guid(c7a962da3ea9e482bb37d495fa22a0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer/_Textures/foamSplash.tga using Guid(c7a962da3ea9e482bb37d495fa22a0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338499a34ce850abd3b95162095b2fea') in 0.008552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sewer/_Textures/waterTint.psd
-  artifactKey: Guid(991930aa8be2242848569eefecca0741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer/_Textures/waterTint.psd using Guid(991930aa8be2242848569eefecca0741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d771282b626b77e4a6ccbc6e8883132') in 0.005879 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sewer/_Textures/waterPoolCubeMap.cubemap
-  artifactKey: Guid(04dd1b84d6a4f4bd198117f3c67003d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer/_Textures/waterPoolCubeMap.cubemap using Guid(04dd1b84d6a4f4bd198117f3c67003d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c992419d614c0ab1d9860a7b6f8e36') in 0.016591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sewer/_Textures/concrete1024TGA.tga
-  artifactKey: Guid(9236b10e57a2544588919a0e5ee066f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer/_Textures/concrete1024TGA.tga using Guid(9236b10e57a2544588919a0e5ee066f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc1a9e261107facd22de293f6a58efe') in 0.007071 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sewer/_Textures/door.psd
-  artifactKey: Guid(84d80cf45a8c54c54a6de68eae61d1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer/_Textures/door.psd using Guid(84d80cf45a8c54c54a6de68eae61d1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de992a8fae568af62ce3cff161ac75a') in 0.006149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sewer/_Textures/electricalAO.psd
-  artifactKey: Guid(10030ef21c408472191ebad1b9f08a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer/_Textures/electricalAO.psd using Guid(10030ef21c408472191ebad1b9f08a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45989b9674662e03bee79143f401f8d9') in 0.005475 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sewer/_Textures/poolLight.psd
-  artifactKey: Guid(639a304a042ed45d5a6789f2960b1961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer/_Textures/poolLight.psd using Guid(639a304a042ed45d5a6789f2960b1961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c395732bdb3c0fef4131aee55dfd118') in 0.005492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sewer/_Textures/electricalTGA.tga
-  artifactKey: Guid(e3ffbcd3a727c4f9c927807531e11a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer/_Textures/electricalTGA.tga using Guid(e3ffbcd3a727c4f9c927807531e11a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ba1785ea5e34f31061e0268b4c605f') in 0.008175 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.101507 seconds.
-  path: Assets/Sewer/_Materials/CubeDiffuse.mat
-  artifactKey: Guid(2c57246c370d6496f9a2b62a90442861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer/_Materials/CubeDiffuse.mat using Guid(2c57246c370d6496f9a2b62a90442861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19d8a8535f098176302e5c378cc9af9') in 0.041132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sewer/_Materials/steam.mat
-  artifactKey: Guid(bd1ccf7a24a3d46fca28d640a5fe9d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer/_Materials/steam.mat using Guid(bd1ccf7a24a3d46fca28d640a5fe9d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781b5f7644664e043566274cb0383f8d') in 0.021608 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sewer/_Materials/splash.mat
-  artifactKey: Guid(4a3938990e8c048088e066b14d2e37fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sewer/_Materials/splash.mat using Guid(4a3938990e8c048088e066b14d2e37fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb11e507a53dfe5f37e41bbe18fa6bc') in 0.008939 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/Textures/Noise/T_Noise_07.png
+  artifactKey: Guid(99bc6d4791580e9488ae782b06e3b4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Noise/T_Noise_07.png using Guid(99bc6d4791580e9488ae782b06e3b4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784b52a96c6f5f69416937c8c21f3662') in 0.011925 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
